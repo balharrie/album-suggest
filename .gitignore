@@ -1,0 +1,5 @@
+config/*.json
+config/artists/**
+.env
+node_modules
+package-lock.json

@@ -1,0 +1,24 @@
+{
+  "name": "tag-updater",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "scan-albums": "tsx scan-albums.ts",
+    "fetch-artists": "tsx fetch-artists.ts",
+    "suggest-albums": "tsx suggest-albums.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "cheerio": "1.0.0",
+    "dotenv": "16.5.0",
+    "music-metadata": "11.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "editorconfig": "^2.0.1",
+    "tsx": "^4.19.3"
+  }
+}
